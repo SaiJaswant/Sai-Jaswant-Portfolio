@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">My Portfolio</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Message Me</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h5 class="home__title">
+                        Hi,<br>
+                        <span class="title-gap">I'm</span> 
+                        <span class="home__title-color name-gap">Sai Jaswant</span><br>
+                        <span class="role-gap">Aspiring Data Analyst</span>
+                    </h5>
+                    <a href="#" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/saijaswantk/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="assets/docs/Sai-Resume.pdf.pdf" 
+       download="C:\Users\jaswa\OneDrive\Desktop\My Personal Website\portfolio-responsive-complete\assets\Docs\Sai-Resume.pdf.pdf"
+       class="home__social-icon"
+       title="Download Resume">
+        <i class='bx bx-file-blank'></i> <!-- Alternative icons: bx bx-download / bx bxs-file-pdf -->
+    </a>
+                    <a href="https://github.com/Jassithecoder" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                <div class="home__img">
+    <!-- Simple image implementation -->
+    <img src="assets/img/Jassi.png" 
+         alt="Sai Jaswant Korupolu" 
+         class="home__profile-img">
+</div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About Me</h2>
+                <div class="about__container bd-grid">
+                    <div class="about__data">
+                        <h3 class="about__heading">Data Architect & Analyst | Cloud Solutions Enthusiast</h3>
+                        <p class="about__description">
+                            Hi! I'm <strong>Sai Jaswant Korupolu</strong>, a graduate student pursuing my Master’s in Computer Science at Governors State University (expected May 2025), actively seeking <em>full-time opportunities</em> in data engineering and analytics. My passion lies in transforming raw data into strategic assets through scalable architectures and actionable insights.
+                        </p>
+            
+                        <div class="about__highlights">
+                            <h4>Key Expertise:</h4>
+                            <ul>
+                                <li>✅ Designed ETL pipelines reducing data latency by 30% at Electronics Corporation of India</li>
+                                <li>✅ AWS Cloud Practitioner certified with hands-on experience in AWS Data Pipeline</li>
+                                <li>✅ Proficient in Python/SQL-driven analytics and visualization (Tableau/Power BI)</li>
+                                <li>✅ Improved database query performance by 40% via optimized indexing strategies</li>
+                            </ul>
+                        </div>
+            
+                        <div class="about__experience">
+                            <h4>Recent Achievements:</h4>
+                            <div class="achievement__item">
+                                <span class="achievement__icon">📊</span>
+                                <p>Architected real-time missile software analytics dashboard using Python/Tableau</p>
+                            </div>
+                            <div class="achievement__item">
+                                <span class="achievement__icon">⚡</span>
+                                <p>Reduced SQL query execution time from 5s to <1s in university DBMS project</p>
+                            </div>
+                        </div>
+            
+                        <div class="about__cta">
+                            <a href="#contact" class="button">Let's Connect</a>
+                            <div class="about__links">
+                                <a href="https://linkedin.com/in/[your-profile]" target="_blank" class="about__social">
+                                    <i class='bx bxl-linkedin-square'></i> LinkedIn
+                                </a>
+                                <a href="https://github.com/[your-profile]" target="_blank" class="about__social">
+                                    <i class='bx bxl-github'></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="about__technical">
+                        <h4>Technical Toolkit:</h4>
+                        <div class="skills__cloud">
+                            <span class="skill__pill">AWS Cloud</span>
+                            <span class="skill__pill">Python/Pandas</span>
+                            <span class="skill__pill">SQL Optimization</span>
+                            <span class="skill__pill">Tableau/Power BI</span>
+                            <span class="skill__pill">ETL Pipelines</span>
+                            <span class="skill__pill">Big Data (Hadoop/Spark)</span>
+                        </div>
+            
+                        <div class="certifications">
+                            <h5>Certifications:</h5>
+                            <ul>
+                                <li>🎖️ AWS Certified Cloud Practitioner</li>
+                                <li>🎖️ Google Analytics Certified</li>
+                                <li>🎖️ Accenture Forge Developer</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+            
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <p class="skills__text">Data-driven analyst proficient in transforming raw data into actionable insights through various BI tools and programming languages.</p>
+                        
+                        <!-- SQL -->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-data skills__icon'></i>
+                                <span class="skills__name">SQL</span>
+                            </div>
+                            <div class="skills__bar skills__sql"></div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+            
+                        <!-- Power BI -->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-line-chart skills__icon'></i>
+                                <span class="skills__name">Power BI</span>
+                            </div>
+                            <div class="skills__bar skills__powerbi"></div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+            
+                        <!-- Python -->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-python skills__icon'></i>
+                                <span class="skills__name">Python</span>
+                            </div>
+                            <div class="skills__bar skills__python"></div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+            
+                        <!-- Tableau -->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-chart skills__icon'></i>
+                                <span class="skills__name">Tableau</span>
+                            </div>
+                            <div class="skills__bar skills__tableau"></div>
+                            <div>
+                                <span class="skills__percentage">88%</span>
+                            </div>
+                        </div>
+            
+                        <!-- Excel -->
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-spreadsheet skills__icon'></i>
+                                <span class="skills__name">Excel (Pivot Tables)</span>
+                            </div>
+                            <div class="skills__bar skills__excel"></div>
+                            <div>
+                                <span class="skills__percentage">92%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="https://cdn-icons-png.flaticon.com/512/2235/2235667.png" alt="Data Analysis Visualization" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+       <!-- Update the WORK section in your HTML -->
+       <!--===== WORK =====-->
+<section class="work section" id="work">
+    <h2 class="section-title">Professional Experience</h2>
+
+    <div class="experience__container bd-grid">
+        <!-- ECIL Experience -->
+        <div class="experience__item">
+            <div class="experience__header">
+                <h3 class="experience__title">Graduate IT Apprentice</h3>
+                <div class="experience__meta">
+                    <span class="experience__company">Electronics Corporation of India Limited</span>
+                    <span class="experience__date">                    January 2023 – May 2023</span>
+                    <span class="experience__location">Hyderabad, India</span>
+                </div>
+            </div>
+            <ul class="experience__points">
+                <li>Architected scalable data visualization dashboard for missile software analytics, reducing data processing latency by 30% through Python-driven ETL pipelines and SQL optimization in AWS</li>
+                <li>Improved dashboard performance by 25% through data cleansing and SQL analysis, enabling data-driven decision-making</li>
+                <li>Enhanced data modeling techniques with zero downtime by implementing cybersecurity solutions and secure workstation configurations</li>
+            </ul>
+            <div class="experience__tech">
+                <span class="tech__pill">Python</span>
+                <span class="tech__pill">SQL</span>
+                <span class="tech__pill">AWS</span>
+                <span class="tech__pill">Tableau</span>
+                <span class="tech__pill">Data Modeling</span>
+                <span class="tech__pill">Power BI</span>
+                <span class="tech__pill">ERP Platforms</span>
+            </div>
+        </div>
+
+        <!-- Sportsgyan Experience -->
+        <div class="experience__item">
+            <div class="experience__header">
+                <h3 class="experience__title">Web Developer Intern</h3>
+                <div class="experience__meta">
+                    <span class="experience__company">Sportsgyan</span>
+                    <span class="experience__date">April 2021 – May 2022</span>
+                    <span class="experience__location">Hyderabad, India</span>
+                </div>
+            </div>
+            <ul class="experience__points">
+                <li>Streamlined collaboration for 5+ developers, achieving 40% faster project delivery through GitHub version control automation</li>
+                <li>Developed and maintained customer relationships through technical communication and report writing</li>
+                <li>Implemented research analysis to adopt new technologies and improve collaboration processes</li>
+            </ul>
+            <div class="experience__tech">
+                <span class="tech__pill">GitHub</span>
+                <span class="tech__pill">Web Development</span>
+                <span class="tech__pill">Technical Documentation</span>
+                <span class="tech__pill">Collaboration Tools</span>
+            </div>
+        </div>
+    </div>
+</section>
+            <!--===== CONTACT =====-->
+<section class="contact section" id="contact">
+    <h2 class="section-title">Let's Connect</h2>
+
+    <div class="contact__container bd-grid">
+        <form action="https://formspree.io/f/xvojnzqk" method="POST" class="contact__form">
+            <input type="text" name="name" placeholder="Your Name" class="contact__input" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact__input" required>
+            <textarea name="message" cols="0" rows="10" placeholder="Your Message" class="contact__input" required></textarea>
+            <button type="submit" class="contact__button button">Send Message</button>
+        </form>
+    </div>
+</section>
+<form action="mailto:sai.korupolu.it@gmail.com" method="POST" enctype="text/plain"></form>
+        </main>
+        <!-- Add this popup HTML before the footer -->
+<div class="contact-popup" id="contactPopup">
+    <div class="popup-content">
+        <span class="close-btn" id="closePopup">&times;</span>
+        <h3>Contact Information</h3>
+        <div class="contact-info">
+            <p><i class='bx bx-phone'></i> +1 3122847606</p>
+            <p><i class='bx bx-envelope'></i> sai.korupolu.it@gmail.com</p>
+        </div>
+    </div>
+</div>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Sai Jaswant</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Sai Jaswant All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
